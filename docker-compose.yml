@@ -1,0 +1,14 @@
+notifications:
+  build: ./notifications
+  links:
+   - db
+  ports:
+    - "3000:3000"
+  volumes:
+   - ./notifications:/src
+  environment: 
+   NODE_ENV: development
+db:
+  image: dockerfile/mongodb:latest
+  ports: 
+   - "27017:27017"
