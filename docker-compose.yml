@@ -6,9 +6,9 @@ notifications:
     - "3000:3000"
   volumes:
    - ./notifications:/src
-  environment: 
+  environment:
    NODE_ENV: development
 db:
-  image: dockerfile/mongodb:latest
-  ports: 
+  image: mongo:latest
+  ports:
    - "27017:27017"
