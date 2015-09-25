@@ -11,8 +11,7 @@
     "express": "^4.11.2",
     "lodash": "^3.5.0",
     "mongojs": "0.18.1",
-    "native-promise-only": "^0.7.6-a",
-    "supertest": "^0.15.0"
+    "native-promise-only": "^0.7.6-a"
   },
   "devDependencies": {
     "bulk-mongodb": "0.0.1",
@@ -22,7 +21,8 @@
     "gulp-jshint": "^1.9.2",
     "gulp-mocha": "^2.0.0",
     "require-dir": "^0.1.0",
-    "run-sequence": "^1.0.2"
+    "run-sequence": "^1.0.2",
+    "supertest": "^0.15.0"
   },
   "engineStrict": true
 }
