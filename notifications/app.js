@@ -1,8 +1,8 @@
 'use strict';
 
-var express 	= require('express');
-var routes 		= require('./resources/routes');
-var app 		= express();
+const express = require('express');
+const routes = require('./resources/routes');
+const app = express();
 
 app.get('/notifications', routes.notifications);
 

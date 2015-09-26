@@ -1,9 +1,9 @@
 'use strict';
 
-var db = require('../store/db');
+const db = require('../store/db');
 
-module.exports.notifications = function(req, res){
-	db.notifications.find({}, function (err, notifications) {
+module.exports.notifications = (req, res) => {
+	db.notifications.find({}, (err, notifications) => {
 		if (err) {
 			return res.status(400).json('Error');
 		}
